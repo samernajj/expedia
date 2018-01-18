@@ -14,8 +14,8 @@ class ExampleTest extends TestCase {
      */
     public function testBasicTest() {
         $response = $this->post('/hotel-search', ['destinationName' => 'amman']);
-
-        $response->assertStatus(200);
+        
+        $this->assertEquals(200, $response->getStatusCode());
     }
 
 }
