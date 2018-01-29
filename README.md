@@ -27,18 +27,22 @@ git clone https://github.com/samernajj/expedia.git
 ```
 cd expedia
 ```
+3- composer update to install dependencies 
+```
+composer update
+```
 
-3- check if php and artisan command working
+4- check if php and artisan command working
 ```
 php artisan 
 ```
-4- run the project with default port(8000) or with differnt port(8090)
+5- run the project with default port(8000) or with differnt port(8090)
 ```
 php artisan serve
 or
 php artisan serve --port=8090
 ```
-5-on your browser type the url with port
+6-on your browser type the url with port
 ```
 http://localhost:8090/
 ```
