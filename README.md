@@ -36,13 +36,23 @@ composer update
 ```
 php artisan 
 ```
-5- run the project with default port(8000) or with differnt port(8090)
+
+5- rename .env.example to .env
+```
+mv ".env.example" ".env"
+```
+6- generate key
+```
+php artisan key:generate
+```
+
+7- run the project with default port(8000) or with differnt port(8090)
 ```
 php artisan serve
 or
 php artisan serve --port=8090
 ```
-6-on your browser type the url with port
+8-on your browser type the url with port
 ```
 http://localhost:8090/
 ```
