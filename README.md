@@ -20,12 +20,12 @@ These instructions will get you a copy of the project up and running on your loc
 
 1- clone the project/reposiory on your machine
 ```
-git clone https://github.com/samernajj/expedia.git
+git clone https://github.com/samernajj/hotels-search.git
 ```
 
 2- got to the project
 ```
-cd expedia
+cd hotels-search
 ```
 3- composer update to install dependencies 
 ```
