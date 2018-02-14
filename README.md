@@ -1,4 +1,4 @@
-# Expedia
+# Hotels Search
 
 A simple search in [JSON API](https://offersvc.expedia.com/offers/v2/getOffers?scenario=deal-finder&page=foo&uid=foo&productType=Hotel) that presents a bunch of Hotel deals.
 
